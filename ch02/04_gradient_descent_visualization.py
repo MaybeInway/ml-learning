@@ -3,7 +3,6 @@ from matplotlib import pyplot as plt
 import numpy as np
 from mpl_toolkits.mplot3d import Axes3D
 
-
 def cost_function(w1, w2):
     J = w1 ** 2 + w2 ** 2 + 2 * w2 + 5
     return J
